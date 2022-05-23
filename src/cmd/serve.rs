@@ -432,7 +432,7 @@ pub fn serve(
         "Listening for changes in {}{}{{{}}}",
         root_dir.display(),
         MAIN_SEPARATOR,
-        watchers.join(", ")
+        watchers.join(",")
     );
 
     println!("Press Ctrl+C to stop\n");
